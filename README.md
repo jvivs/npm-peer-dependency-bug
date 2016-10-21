@@ -5,6 +5,7 @@ TL;DR: transitive dependencies with a peerDependency in conflict can get the wro
 Take this dependency tree for example:
 
 ## Initial dependency tree
+```
 package
   |
   |--primary-with-peer
@@ -15,8 +16,10 @@ package
     |--transitive-with-peer
       ||
       ||==[peerDependency]== peer@1.0.0
+```
 
 ## Resolved peers
+```
 package
   |
   |--primary-with-peer
@@ -24,8 +27,10 @@ package
   |--primary-with-transitive-peer
     |--transitive-with-peer
     |--peer@1.0.0 (satisfies peerDep of transitive-with-peer)
+```
 
 ## Installed
+```
 package
   |
   |--primary-with-peer
@@ -33,6 +38,7 @@ package
   |--primary-with-transitive-peer
   | |--peer@1.0.0
   |--transitive-with-peer **finds v2.0.0 instead of intended v1.0.0**
+```
 
 For a working example, clone this repo and run `npm install` inside the `package` directory.
 
