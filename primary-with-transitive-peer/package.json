@@ -1,0 +1,15 @@
+{
+  "name": "primary-with-transitive-peer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "transitive-with-peer": "file:///Users/jvivian/code/deeplink/npm-peer-dependency-bug/transitive-with-peer",
+    "peer": "file:///Users/jvivian/code/deeplink/npm-peer-dependency-bug/peer"
+  }
+}
