@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "peer": "file:///Users/jvivian/code/deeplink/npm-peer-dependency-bug/peer-v2",
-    "primary-with-peer": "file:///Users/jvivian/code/deeplink/npm-peer-dependency-bug/primary-with-peer",
-    "primary-with-transitive-peer": "file:///Users/jvivian/code/deeplink/npm-peer-dependency-bug/primary-with-transitive-peer"
+    "peer": "file://../peer-v2",
+    "primary-with-peer": "file://../primary-with-peer",
+    "primary-with-transitive-peer": "file://../primary-with-transitive-peer"
   }
 }

@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "peer": "file:///Users/jvivian/code/deeplink/npm-peer-dependency-bug/peer-v2"
+    "peer": "file://../peer-v2"
   }
 }
