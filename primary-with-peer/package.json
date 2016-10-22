@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "peer": "file://../peer-v2"
+    "peer": "../peer-v2"
   }
 }

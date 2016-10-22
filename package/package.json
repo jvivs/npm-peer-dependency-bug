@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "peer": "file://../peer-v2",
-    "primary-with-peer": "file://../primary-with-peer",
-    "primary-with-transitive-peer": "file://../primary-with-transitive-peer"
+    "peer": "../peer-v2",
+    "primary-with-peer": "../primary-with-peer",
+    "primary-with-transitive-peer": "../primary-with-transitive-peer"
   }
 }

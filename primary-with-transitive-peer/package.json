@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "transitive-with-peer": "file://../transitive-with-peer",
-    "peer": "file://../peer"
+    "peer": "../peer",
+    "transitive-with-peer": "../transitive-with-peer"
   }
 }
