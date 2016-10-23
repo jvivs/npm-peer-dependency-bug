@@ -42,6 +42,26 @@ package
 
 For a working example, clone this repo and run `npm install` inside the `package` directory.
 
+Then, open the repl and require the `package` module:
+
+```
+$ node
+> require('./package')
+{ name: 'package',
+  version: '1.0.0',
+  'primary-with-peer':
+   { name: 'primary-with-peer',
+     version: '1.0.0',
+     peer: { name: 'peer', version: '2.0.0' } },
+  'transitive-with-peer':
+   { name: 'transitive-with-peer',
+     version: '1.0.0',
+     peer: { name: 'peer', version: '2.0.0' } } }
+```
+
+
+With all peerDependencies installed as directed, note that both `primary-with-peer` and `transitive-with-peer` get the same version of `peer` rather than the distinct versions specified in their respective `package.json` files.
+
 In more detail:
 
 In npm@2, all of a package's dependencies would be installed in the package's `node_modules` folder, peerDependencies included.
